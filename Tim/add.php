@@ -21,4 +21,5 @@ $put = fopen("data.json","w") or die("Cannot write to path");
 		 fwrite($put,json_encode($json));
 		 fclose($put);
 
+
 echo '200';
